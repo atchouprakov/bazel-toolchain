@@ -67,7 +67,7 @@ toolchain {
 
   # C++
   #cxx_flag: "-std=c++17"
-  cxx_flag: "-stdlib=libstdc++"
+  cxx_flag: "-stdlib=libc++"
   # The linker has no way of knowing if there are C++ objects; so we always link C++ libraries.
   linker_flag: "-l:libc++.a"
   linker_flag: "-l:libc++abi.a"
